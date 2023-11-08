@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #769cee; 
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: #020000;
+}
+
+header {
+    background-color: #bbdbe5;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 0px 10px;
+    border: 2px solid rgb(36, 36, 86);
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.form-section {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    display: block; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.checkboxes label {
+    display: block; 
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    background-color: #0ea22e;
+    color: #fdfdfd;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Swiper navigation and pagination styles */
+.swiper-container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+}
+
+.swiper-pagination-bullet {
+    background: #000;
+}
+
+
+@media (min-width: 601px) {
+    body {
+        background-color: #e0f18a; 
+    }
+
+    .form-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    .form-section label {
+        flex-basis: 40%; 
+    }
+
+    .form-section input,
+    .form-section textarea {
+        flex-basis: 60%; 
+        max-width: 60%; 
+    }
+
+    
+    .checkboxes label {
+        display: inline-block; 
+    }
+
+    
+    input[type="submit"] {
+        width: auto; 
+        padding: 10px 20px; 
+    }
+}
