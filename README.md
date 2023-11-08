@@ -1,0 +1,1 @@
+Made a simple, responsive web form with Swiper integration for smooth section transitions, featuring mobile-first design and enhanced desktop layout for Mobile Web Development class for St. Clair College
